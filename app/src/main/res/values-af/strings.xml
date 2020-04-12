@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">instellings</string>
+    <string name="messages_header">boodskappe</string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">Jou handtekening</string>
+    <string name="reply_title">Standaard antwoord aksie</string>
+    <string name="sync_title">Sync tyd tot tyd e-pos</string>
+    <string name="attachment_title">Aflaai inkomende aanhegsels</string>
+    <string name="attachment_summary_on">Outomaties aflaai aanhegsels vir inkomende e-pos</string>
+    <string name="attachment_summary_off">Net aflaai bylae toe met die hand versoek</string>
+    <string name="hello_blank_fragment">Hallo leeg fragment</string>
+</resources>

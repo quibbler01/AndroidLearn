@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">לעאַרנגלידע</string>
+    <string name="title_activity_settings">סעטטינגס</string>
+    <string name="messages_header">אַרטיקלען</string>
+    <string name="sync_header">סינק</string>
+    <string name="signature_title">דיין כסימע</string>
+    <string name="reply_title">ניט ויסצאָלן ענטפער קאַמף</string>
+    <string name="sync_title">סינק בליצפּאָסט פּיריאַדיקלי</string>
+    <string name="attachment_title">דאַונלאָוד ינקאַמינג אַטאַטשמאַנץ</string>
+    <string name="attachment_summary_on">אויטאָמאַטיש אָפּלאָדירן אַטאַטשמאַנץ פֿאַר ינקאַמינג ימיילז</string>
+    <string name="attachment_summary_off">בלויז אָפּלאָדירן און אַטאַטשמאַנץ ווען מאַניואַלי געבעטן</string>
+    <string name="hello_blank_fragment">העלא פּוסט פראַגמענט</string>
+</resources>

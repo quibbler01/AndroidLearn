@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">Agordoj</string>
+    <string name="messages_header">Mesaĝoj</string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">via subskribo</string>
+    <string name="reply_title">Defaŭlta respondo ago</string>
+    <string name="sync_title">Sync retmesaĝi periode</string>
+    <string name="attachment_title">Elŝutu alvenanta ligiteco</string>
+    <string name="attachment_summary_on">Aŭtomate elŝuti ligiteco por alvenantaj retpoŝtoj</string>
+    <string name="attachment_summary_off">Nur elŝuti ligiteco kiam permane petis</string>
+    <string name="hello_blank_fragment">Saluton malplenan fragmento</string>
+</resources>

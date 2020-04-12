@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">جوڙ</string>
+    <string name="messages_header">الحال ڪوبه پيغام</string>
+    <string name="sync_header">هم</string>
+    <string name="signature_title"></string>
+    <string name="reply_title">ھونئن جواب عمل</string>
+    <string name="sync_title">هم اي ميل وقت</string>
+    <string name="attachment_title">ڊائون لوڊ ايندڙ ڳنڍي</string>
+    <string name="attachment_summary_on">ايندڙ اي ميلون لاء ڳنڍي خودڪار طريقي سان ڊائونلوڊ</string>
+    <string name="attachment_summary_off">صرف ڳنڍي ڊائون لوڊ جڏهن هٿرادو درخواست</string>
+    <string name="hello_blank_fragment">سلام خالي fragment</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">ynstellings</string>
+    <string name="messages_header">berjochten</string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">Jo hantekening</string>
+    <string name="reply_title">Standert antwurd aksje</string>
+    <string name="sync_title">SYNC e periodyk</string>
+    <string name="attachment_title">Download ynkommende taheaksels</string>
+    <string name="attachment_summary_on">Automatysk download taheaksels foar ynkommend e-mails</string>
+    <string name="attachment_summary_off">Allinne download taheaksels as hân frege</string>
+    <string name="hello_blank_fragment">Hallo blank fragmint</string>
+</resources>

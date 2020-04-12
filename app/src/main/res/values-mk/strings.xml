@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">LearnGlide</string>
+	<string name="title_activity_settings">Подесувања</string>
+	<string name="messages_header">пораки</string>
+	<string name="sync_header">Sync</string>
+	<string name="signature_title">вашиот потпис</string>
+	<string name="reply_title">Основна акција одговор</string>
+	<string name="sync_title">Синхронизирај е-пошта периодично</string>
+	<string name="attachment_title">Преземете дојдовни додатоци</string>
+	<string name="attachment_summary_on">Автоматски додатоци преземете за дојдовни пораки</string>
+	<string name="attachment_summary_off">Само преземете прикачувања кога рачно се бара</string>
+	<string name="hello_blank_fragment">Здраво празно фрагмент</string>
+	<string name="string"></string>
+</resources>

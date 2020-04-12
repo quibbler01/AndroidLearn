@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">ቅንብሮች</string>
+    <string name="messages_header">መልእክቶች</string>
+    <string name="sync_header">አመሳስል</string>
+    <string name="signature_title">የእርስዎ ፊርማ</string>
+    <string name="reply_title">ነባሪ ምላሽ እርምጃ</string>
+    <string name="sync_title">በየጊዜው ኢሜይል አስምር</string>
+    <string name="attachment_title">ገቢ አባሪዎችን አውርድ</string>
+    <string name="attachment_summary_on">ገቢ ኢሜይሎች በራስ-አውርድ አባሪዎች</string>
+    <string name="attachment_summary_off">በእጅ ጥያቄ በቀረበ ጊዜ ብቻ አባሪዎችን አውርድ</string>
+    <string name="hello_blank_fragment">ሠላም ባዶ ክፍልፋይ</string>
+</resources>

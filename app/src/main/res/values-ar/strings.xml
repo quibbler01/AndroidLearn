@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">الإعدادات</string>
+    <string name="messages_header">رسائل</string>
+    <string name="sync_header"></string>
+    <string name="signature_title">توقيعك</string>
+    <string name="reply_title">إجراءات الرد افتراضي</string>
+    <string name="sync_title">مزامنة البريد الإلكتروني بشكل دوري</string>
+    <string name="attachment_title">تحميل المرفقات واردة</string>
+    <string name="attachment_summary_on">تلقائيا تحميل مرفقات رسائل البريد الإلكتروني الواردة</string>
+    <string name="attachment_summary_off">فقط تحميل المرفقات عند الطلب يدويا</string>
+    <string name="hello_blank_fragment">مرحبا جزء فارغ</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">समायोजन</string>
+    <string name="messages_header">संदेश</string>
+    <string name="sync_header">सिंक</string>
+    <string name="signature_title">आपके हस्ताक्षर</string>
+    <string name="reply_title">डिफ़ॉल्ट जबाब कार्रवाई</string>
+    <string name="sync_title">सिंक समय-समय पर ईमेल करें</string>
+    <string name="attachment_title">डाउनलोड भेजे संलग्नक</string>
+    <string name="attachment_summary_on">आने वाली ईमेल के लिए स्वचालित रूप से अटैचमेंट डाउनलोड करें</string>
+    <string name="attachment_summary_off">केवल अनुलग्नकों को डाउनलोड जब मैन्युअल रूप से अनुरोध किया</string>
+    <string name="hello_blank_fragment">हैलो खाली टुकड़ा</string>
+</resources>

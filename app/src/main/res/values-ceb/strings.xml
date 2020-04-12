@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">setting</string>
+    <string name="messages_header">mga mensahe</string>
+    <string name="sync_header">sync</string>
+    <string name="signature_title">Ang imong pirma</string>
+    <string name="reply_title">Default tubag aksyon</string>
+    <string name="sync_title">Sync email matag</string>
+    <string name="attachment_title">Download umaabot nga sumpay, mga dugtong</string>
+    <string name="attachment_summary_on">Awtomatikong download sumpay, mga dugtong alang sa umaabot nga mga email</string>
+    <string name="attachment_summary_off">Lamang download sumpay, mga dugtong sa diha nga sa kamut mihangyo</string>
+    <string name="hello_blank_fragment">Hello blangko tipik</string>
+</resources>

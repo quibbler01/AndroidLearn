@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">Ρυθμίσεις</string>
+    <string name="messages_header">Μηνύματα</string>
+    <string name="sync_header">Συγχρονισμός</string>
+    <string name="signature_title">Η υπογραφή σου</string>
+    <string name="reply_title">Προεπιλεγμένη ενέργεια απάντηση</string>
+    <string name="sync_title">SYNC email περιοδικά</string>
+    <string name="attachment_title">Λήψη εισερχόμενων συνημμένα</string>
+    <string name="attachment_summary_on">Αυτόματη λήψη συνημμένων για τα εισερχόμενα μηνύματα ηλεκτρονικού ταχυδρομείου</string>
+    <string name="attachment_summary_off">κατεβάστε μόνο εξαρτήματα όταν ζητηθεί με το χέρι</string>
+    <string name="hello_blank_fragment">Γεια κενό κομμάτι</string>
+</resources>

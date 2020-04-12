@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">ترتیبات</string>
+    <string name="messages_header">پیغامات</string>
+    <string name="sync_header">مطابقت پذیر بنائیں</string>
+    <string name="signature_title">آپ کے دستخط</string>
+    <string name="reply_title">طے شدہ جواب کو کارروائی</string>
+    <string name="sync_title">وقفہ وقفہ سے ای میل کی مطابقت پذیر</string>
+    <string name="attachment_title">آنے والے اٹیچمنٹ ڈاؤن لوڈ کریں</string>
+    <string name="attachment_summary_on">خود کار طریقے سے ڈاؤن لوڈ منسلکات آنے والی ای میلز کے لئے</string>
+    <string name="attachment_summary_off">دستی طور پر درخواست کی جب صرف اٹیچمنٹ ڈاؤن لوڈ کریں</string>
+    <string name="hello_blank_fragment">ہیلو خالی ٹکڑا</string>
+</resources>

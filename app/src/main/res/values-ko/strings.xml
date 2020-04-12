@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"></string>
+    <string name="title_activity_settings"></string>
+    <string name="messages_header">메시지</string>
+    <string name="sync_header">동조</string>
+    <string name="signature_title">귀하의 서명</string>
+    <string name="reply_title">기본 응답 액션</string>
+    <string name="sync_title">주기적으로 이메일 동기화</string>
+    <string name="attachment_title">들어오는 첨부 파일을 다운로드</string>
+    <string name="attachment_summary_on">수신 이메일에 대한 자동 다운로드 첨부 파일</string>
+    <string name="attachment_summary_off">수동으로 요청 된 경우에만 첨부 파일을 다운로드</string>
+    <string name="hello_blank_fragment">안녕하세요 빈 조각</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">Saituna</string>
+    <string name="messages_header">saƙonnin</string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">sa hannu</string>
+    <string name="reply_title">Default amsa mataki</string>
+    <string name="sync_title">Sync da email lokaci zuwa lokaci</string>
+    <string name="attachment_title">Download mai shigowa haše-haše</string>
+    <string name="attachment_summary_on">Ta atomatik download haše-haše ga mai shigowa imel</string>
+    <string name="attachment_summary_off">Kawai download haše-haše a lokacin da hannu nema</string>
+    <string name="hello_blank_fragment">Hello blank gutsure</string>
+</resources>

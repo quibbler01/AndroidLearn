@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">સેટિંગ્સ</string>
+    <string name="messages_header">સંદેશાઓ</string>
+    <string name="sync_header">સમન્વયન</string>
+    <string name="signature_title">તમારા હસ્તાક્ષર</string>
+    <string name="reply_title">ડિફૉલ્ટ જવાબ ક્રિયા</string>
+    <string name="sync_title">સમન્વયન સમયાંતરે ઇમેઇલ</string>
+    <string name="attachment_title">ડાઉનલોડ ઇનકમિંગ જોડાણો</string>
+    <string name="attachment_summary_on">ઇનકમિંગ ઇમેઇલ્સ માટે આપમેળે જોડાણો ડાઉનલોડ કરો</string>
+    <string name="attachment_summary_off">ફક્ત જોડાણો ડાઉનલોડ જ્યારે જાતે વિનંતી કરી</string>
+    <string name="hello_blank_fragment">હેલો ખાલી ટુકડો</string>
+</resources>

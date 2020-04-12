@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">seaded</string>
+    <string name="messages_header">sõnumid</string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">Sinu allkiri</string>
+    <string name="reply_title">Vaikimisi vastuses hagi</string>
+    <string name="sync_title">Sünkrooni perioodiliselt</string>
+    <string name="attachment_title">Lae sissetulevate manuseid</string>
+    <string name="attachment_summary_on">Automaatselt alla laadida manuseid sissetulevate meilide</string>
+    <string name="attachment_summary_off">Ainult alla manuseid käsitsi taotletud</string>
+    <string name="hello_blank_fragment">Tere tühi fragment</string>
+</resources>

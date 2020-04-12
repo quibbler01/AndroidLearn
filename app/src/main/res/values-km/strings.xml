@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"></string>
+    <string name="title_activity_settings">ការកំណត់</string>
+    <string name="messages_header">សារ</string>
+    <string name="sync_header">ធ្វើសមកាលកម្ម</string>
+    <string name="signature_title">ហត្ថលេខារបស់អ្នក</string>
+    <string name="reply_title">សកម្មភាពឆ្លើយតបលំនាំដើម</string>
+    <string name="sync_title">ធ្វើសមកាលកម្មអ៊ីម៉ែលទៀងទាត់</string>
+    <string name="attachment_title">ទាញយកឯកសារភ្ជាប់ចូល</string>
+    <string name="attachment_summary_on">ឯកសារភ្ជាប់ដែលបានទាញយកដោយស្វ័យប្រវត្តិសម្រាប់អ៊ីម៉ែលចូល</string>
+    <string name="attachment_summary_off">ទាញយកឯកសារភ្ជាប់នៅពេលដែលបានស្នើរសុំបានតែដោយដៃ</string>
+    <string name="hello_blank_fragment"></string>
+</resources>

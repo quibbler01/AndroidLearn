@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">Cilësimet</string>
+    <string name="messages_header">mesazhet</string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">Nenshkrimi juaj</string>
+    <string name="reply_title">Veprimi Default Përgjigju</string>
+    <string name="sync_title">Sync email periodikisht</string>
+    <string name="attachment_title">Shkarko attachments hyrje</string>
+    <string name="attachment_summary_on">Automatikisht pa attachments për email hyrëse</string>
+    <string name="attachment_summary_off">Vetëm shkarko bashkëngjitni skedarë kur kërkohet dorë</string>
+    <string name="hello_blank_fragment">Përshëndetje fragment bosh</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">chaw</string>
+    <string name="messages_header">lus</string>
+    <string name="sync_header">sync</string>
+    <string name="signature_title">Kos koj lub npe</string>
+    <string name="reply_title">Default teb txiav txim</string>
+    <string name="sync_title">Sync email tsis tseg</string>
+    <string name="attachment_title">Download tau khoom attachments</string>
+    <string name="attachment_summary_on">Yeej download attachments rau khoom emails</string>
+    <string name="attachment_summary_off">Tsuas yog download tau attachments thaum manually thov</string>
+    <string name="hello_blank_fragment">Nyob zoo dawb paug fragment</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">настройки</string>
+    <string name="messages_header">Сообщения</string>
+    <string name="sync_header">Синхронизация</string>
+    <string name="signature_title">Ваша подпись</string>
+    <string name="reply_title"></string>
+    <string name="sync_title"></string>
+    <string name="attachment_title">Скачать входящие вложения</string>
+    <string name="attachment_summary_on">Автоматически загружать прикрепленные файлы для входящих сообщений электронной почты</string>
+    <string name="attachment_summary_off">Только загружать вложения при запросе вручную</string>
+    <string name="hello_blank_fragment">Привет пустой фрагмент</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">Ustawienia</string>
+    <string name="messages_header">wiadomości</string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">Twój podpis</string>
+    <string name="reply_title">Akcja domyślna odpowiedź</string>
+    <string name="sync_title">Sync okresowo e-mail</string>
+    <string name="attachment_title">Pobierz przychodzących załączników</string>
+    <string name="attachment_summary_on">Automatycznie pobierać załączniki do przychodzących wiadomości e-mail</string>
+    <string name="attachment_summary_off">pobrać tylko podczas ręcznego wymagane załączniki</string>
+    <string name="hello_blank_fragment">Witam pusty fragment</string>
+</resources>

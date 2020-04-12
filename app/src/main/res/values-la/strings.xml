@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">Optiones</string>
+    <string name="messages_header">nuntiis</string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">subscriptio tua</string>
+    <string name="reply_title">Default responsum actio</string>
+    <string name="sync_title">Sync email temporibus</string>
+    <string name="attachment_title">Download advenientis attachiamenta</string>
+    <string name="attachment_summary_on">Statim advenientis download attachiamenta de emails</string>
+    <string name="attachment_summary_off">Petivisti solum download manually cum attachiamentum</string>
+    <string name="hello_blank_fragment">Salve blank fragmentum</string>
+</resources>

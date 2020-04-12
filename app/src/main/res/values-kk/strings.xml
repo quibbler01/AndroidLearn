@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">Параметрлер</string>
+    <string name="messages_header">Хабарлар</string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">Қолтаңбаңыз</string>
+    <string name="reply_title">Әдепкі жауап іс-қимыл</string>
+    <string name="sync_title">мезгіл-мезгіл Sync электрондық пошта</string>
+    <string name="attachment_title">Кіріс тіркемелерді жүктеп</string>
+    <string name="attachment_summary_on">Кіріс электрондық пошта үшін тіркемелерді автоматты түрде жүктеу</string>
+    <string name="attachment_summary_off">қолмен сұралған кезде тіркемелерді Тек жүктеп</string>
+    <string name="hello_blank_fragment">Сәлеметсіз бе бос фрагменті</string>
+</resources>

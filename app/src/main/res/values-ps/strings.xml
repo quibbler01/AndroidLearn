@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">امستنې</string>
+    <string name="messages_header">پيغامونه</string>
+    <string name="sync_header">پرانیځئ</string>
+    <string name="signature_title">ستاسو د لاسلیک</string>
+    <string name="reply_title">Default ځواب عمل</string>
+    <string name="sync_title">پرانیځئ وخت په وخت برېښنالیک</string>
+    <string name="attachment_title">دانلود راتلونکي attachments</string>
+    <string name="attachment_summary_on">د راتلونکي بریښنالیکونو په خپلکارې توګه دانلود attachments</string>
+    <string name="attachment_summary_off">یوازې attachments په دانلود کله چې په لاسي غوښتنه</string>
+    <string name="hello_blank_fragment"></string>
+</resources>

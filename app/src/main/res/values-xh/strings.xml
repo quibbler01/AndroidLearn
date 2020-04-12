@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">izicwangciso</string>
+    <string name="messages_header">imiyalezo</string>
+    <string name="sync_header">sync</string>
+    <string name="signature_title">utyikityo lwakho</string>
+    <string name="reply_title">Default isenzo impendulo</string>
+    <string name="sync_title">Sync email njalo</string>
+    <string name="attachment_title">Umxokozelo attachments engenayo</string>
+    <string name="attachment_summary_on">Ngokuzenzekelayo attachments download imeyili engenayo</string>
+    <string name="attachment_summary_off">download Kuphela attachments xa iceliwe ngesandla</string>
+    <string name="hello_blank_fragment">Hello ukuqhekeka blank</string>
+</resources>

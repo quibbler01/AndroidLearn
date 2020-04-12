@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">Beállítások</string>
+    <string name="messages_header">üzenetek</string>
+    <string name="sync_header">Szinkronizál</string>
+    <string name="signature_title">Aláírása</string>
+    <string name="reply_title">Alapértelmezett válasz akció</string>
+    <string name="sync_title">E-mail szinkronizálása időszakosan</string>
+    <string name="attachment_title">Letöltés bejövő mellékleteket</string>
+    <string name="attachment_summary_on">Automatikusan letöltés berendezés bejövő e-maileket</string>
+    <string name="attachment_summary_off">Csak letöltheti a mellékleteket kézzel kért</string>
+    <string name="hello_blank_fragment">Szia blank fragmentum</string>
+</resources>

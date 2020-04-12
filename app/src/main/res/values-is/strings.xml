@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">Stillingar</string>
+    <string name="messages_header">skilaboð</string>
+    <string name="sync_header">Samstilla</string>
+    <string name="signature_title">undirskrift þín</string>
+    <string name="reply_title">Sjálfgefin aðgerð svar</string>
+    <string name="sync_title">Samstilla tölvupóst reglulega</string>
+    <string name="attachment_title">Sækja komandi viðhengi</string>
+    <string name="attachment_summary_on">Sækja viðhengi sjálfkrafa fyrir komandi tölvupóst</string>
+    <string name="attachment_summary_off">Aðeins sækja viðhengi þegar handvirkt beðið</string>
+    <string name="hello_blank_fragment">Halló auður brot</string>
+</resources>

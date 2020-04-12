@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">Nastavení</string>
+    <string name="messages_header">zprávy</string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">Tvůj podpis</string>
+    <string name="reply_title">Výchozí odpověď akce</string>
+    <string name="sync_title">Sync pravidelně e-maily</string>
+    <string name="attachment_title">Ke stažení příchozích příloh</string>
+    <string name="attachment_summary_on">Automaticky stahovat přílohy pro příchozí e-maily</string>
+    <string name="attachment_summary_off">stahovat pouze doplňky při ručním požadováno</string>
+    <string name="hello_blank_fragment">Dobrý den, prázdný fragment</string>
+</resources>

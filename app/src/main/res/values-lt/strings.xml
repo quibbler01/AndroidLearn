@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">Nustatymai</string>
+    <string name="messages_header">Žinutės</string>
+    <string name="sync_header">sinchronizavimo</string>
+    <string name="signature_title">Tavo parašas</string>
+    <string name="reply_title">Numatytasis Atsakyti veiksmų</string>
+    <string name="sync_title">Sinchronizuoti paštu periodiškai</string>
+    <string name="attachment_title">Parsisiųsti gaunamus priedus</string>
+    <string name="attachment_summary_on">Automatiškai atsisiųsti Įrangos gaunamus laiškus</string>
+    <string name="attachment_summary_off">tik atsisiųsti failų, kai rankiniu būdu prašoma</string>
+    <string name="hello_blank_fragment">Sveiki tuščias fragmentas</string>
+</resources>

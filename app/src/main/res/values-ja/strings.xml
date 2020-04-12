@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">設定</string>
+    <string name="title_activity_settings">設定</string>
+    <string name="messages_header">メッセージ</string>
+    <string name="sync_header">同期</string>
+    <string name="signature_title"></string>
+    <string name="reply_title">デフォルトの返信アクション</string>
+    <string name="sync_title">定期的に同期メール</string>
+    <string name="attachment_title"></string>
+    <string name="attachment_summary_on">受信メール用の添付ファイルを自動的にダウンロード</string>
+    <string name="attachment_summary_off">手動で要求された場合にのみ、添付ファイルをダウンロード</string>
+    <string name="hello_blank_fragment"></string>
+</resources>

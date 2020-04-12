@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings"></string>
+    <string name="messages_header">messaġġi</string>
+    <string name="sync_header">sync</string>
+    <string name="signature_title">firma tiegħek</string>
+    <string name="reply_title"></string>
+    <string name="sync_title">Sync email perjodikament</string>
+    <string name="attachment_title"></string>
+    <string name="attachment_summary_on">Awtomatikament annessi download għal emails deħlin</string>
+    <string name="attachment_summary_off">Biss tniżżel twaħħil meta tintalab manwalment</string>
+    <string name="hello_blank_fragment">Hello framment vojt</string>
+</resources>

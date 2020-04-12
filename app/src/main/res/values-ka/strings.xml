@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">პარამეტრები</string>
+    <string name="messages_header">შეტყობინებები</string>
+    <string name="sync_header">sync</string>
+    <string name="signature_title">Თქვენი ხელმოწერა</string>
+    <string name="reply_title">Default საპასუხო სარჩელი</string>
+    <string name="sync_title">ელფოსტის სინქრონიზაცია პერიოდულად</string>
+    <string name="attachment_title">ჩამოტვირთვა შემომავალი attachments</string>
+    <string name="attachment_summary_on">ავტომატურად ჩამოტვირთვა attachments შემომავალი წერილებს</string>
+    <string name="attachment_summary_off">მხოლოდ ჩამოტვირთოთ attachments, როდესაც ხელით მოითხოვა</string>
+    <string name="hello_blank_fragment">გაუმარჯოს ცარიელი ფრაგმენტი</string>
+</resources>

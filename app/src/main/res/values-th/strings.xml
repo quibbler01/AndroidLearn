@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">การตั้งค่า</string>
+    <string name="messages_header">ข้อความ</string>
+    <string name="sync_header">ซิงค์</string>
+    <string name="signature_title">ลายเซ็นของคุณ</string>
+    <string name="reply_title">การดำเนินการตอบกลับเริ่มต้น</string>
+    <string name="sync_title">ซิงค์อีเมลเป็นระยะ ๆ</string>
+    <string name="attachment_title">ดาวน์โหลดไฟล์แนบเข้ามา</string>
+    <string name="attachment_summary_on">โดยอัตโนมัติดาวน์โหลดไฟล์แนบสำหรับอีเมลขาเข้า</string>
+    <string name="attachment_summary_off">ดาวน์โหลดเฉพาะไฟล์ที่แนบมาด้วยตนเองเมื่อมีการร้องขอ</string>
+    <string name="hello_blank_fragment">สวัสดีส่วนว่างเปล่า</string>
+</resources>

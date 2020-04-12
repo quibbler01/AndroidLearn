@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.easyicon.learnglide">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".activity.ViewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".service.MessengerService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote" />
+
+        <activity android:name=".activity.PercentLayoutActivity" />
+        <activity
+            android:name=".activity.ConstraintLayoutActivity"
+            android:configChanges="screenSize|orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.DialogActivity"
+            android:launchMode="standard" />
+        <activity android:name=".activity.ViewPagerTestActivity" />
+        <activity android:name=".ui.LearnFragmentActivity" />
+        <activity android:name=".activity.SettingActivitry" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+
+        <service
+            android:name=".service.MyService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.quibbler.aidl" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="category.quibbler.aidl" />
+            </intent-filter>
+        </service> <!-- 运行在 com.easyicon.learnglide.quibbler.remote进程 -->
+        <activity
+            android:name=".activity.FirstActivity"
+            android:launchMode="singleTop"
+            android:process="com.easyicon.learnglide.quibbler.remote" /> <!-- 运行在 包名:remote进程 数据可以和默认进程共享 -->
+        <activity
+            android:name=".activity.SecondActivity"
+            android:process=":remote"
+            android:theme="@style/SecondTheme" />
+        <activity android:name=".activity.BaseGlideActivity" />
+        <activity android:name=".MainActivity" />
+
+        <receiver
+            android:name=".view.DesktopWidget"
+            android:label="桌面时钟">
+            <intent-filter>
+                <!--桌面挂件组件必须的action-->
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <!--自定义的点击广播-->
+                <action android:name="com.easyicon.learnglide.desktopWidget.CLICK" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/desktop_widget_info" />
+        </receiver>
+
+        <receiver android:name=".view.NewAppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.easyicon.learnglide.CLICK" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/new_app_widget_info" />
+        </receiver>
+
+        <meta-data
+            android:name="android.webkit.WebView.EnableSafeBrowsing"
+            android:value="true" />
+    </application>
+
+</manifest>

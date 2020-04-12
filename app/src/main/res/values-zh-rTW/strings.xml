@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">設置</string>
+    <string name="messages_header">消息</string>
+    <string name="sync_header">同步</string>
+    <string name="signature_title">你的簽名</string>
+    <string name="reply_title">默認回复動作</string>
+    <string name="sync_title">週期性同步電子郵件</string>
+    <string name="attachment_title">下載附件傳入</string>
+    <string name="attachment_summary_on">自動下載附件發來的電子郵件</string>
+    <string name="attachment_summary_off">只有下載附件手動請求時</string>
+    <string name="hello_blank_fragment">你好空白片段</string>
+</resources>

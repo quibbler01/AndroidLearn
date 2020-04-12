@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">LearnGlide</string>
+	<string name="title_activity_settings">asetukset</string>
+	<string name="messages_header">viestien</string>
+	<string name="sync_header"></string>
+	<string name="signature_title">Sinun allekirjoituksesi</string>
+	<string name="reply_title">Oletusvastausosoitteenani toiminta</string>
+	<string name="sync_title">Synkronoida sähköpostin määräajoin</string>
+	<string name="attachment_title">Lataa saapuvan liitetiedostoja</string>
+	<string name="attachment_summary_on">Lataa liitteet automaattisesti saapuville sähköpostit</string>
+	<string name="attachment_summary_off">Vain Lataa liitteet pyydetään manuaalisesti</string>
+	<string name="hello_blank_fragment">Hei tyhjä fragmentti</string>
+	<string name="string"></string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">LearnGlide</string>
+	<string name="title_activity_settings">Settings</string>
+	<string name="messages_header"></string>
+	<string name="sync_header">mmekọrịta</string>
+	<string name="signature_title"></string>
+	<string name="reply_title">Ndabere reply edinam</string>
+	<string name="sync_title">Mmekọrịta email oge</string>
+	<string name="attachment_title">Download abata Mgbakwụnye</string>
+	<string name="attachment_summary_on">Na-akpaghị aka download Mgbakwụnye maka abata ozi ịntanetị</string>
+	<string name="attachment_summary_off">Naanị download Mgbakwụnye mgbe aka rịọrọ</string>
+	<string name="hello_blank_fragment">Hello oghere ibe akwụkwọ</string>
+	<string name="string"></string>
+</resources>

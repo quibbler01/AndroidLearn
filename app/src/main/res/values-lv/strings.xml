@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">LearnGlide</string>
+	<string name="title_activity_settings">Iestatījumi</string>
+	<string name="messages_header">ziņojumi</string>
+	<string name="sync_header">Sync</string>
+	<string name="signature_title">Tavs paraksts</string>
+	<string name="reply_title">Noklusējuma atbilde darbība</string>
+	<string name="sync_title">E-pasta sinhronizācija periodiski</string>
+	<string name="attachment_title">Lejupielādēt ienākošos pielikumus</string>
+	<string name="attachment_summary_on">Automātiski lejupielādēt pielikumus par ienākošajiem e-pastiem</string>
+	<string name="attachment_summary_off">tikai lejupielādēt pielikumus, manuāli pieprasīts</string>
+	<string name="hello_blank_fragment"></string>
+	<string name="string"></string>
+</resources>

@@ -1,0 +1,70 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="设置组1">
+
+        <EditTextPreference
+            app:icon="@drawable/setting_icon_2"
+            app:key="signature"
+            app:summary="输入一些东西"
+            app:title="设置输入"
+            app:useSimpleSummaryProvider="true" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="设置组2">
+
+        <ListPreference
+            app:defaultValue="reply"
+            app:entries="@array/reply_entries"
+            app:entryValues="@array/reply_values"
+            app:key="reply"
+            app:title="@string/reply_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="key_category"
+        app:title="网络设置">
+
+        <SwitchPreferenceCompat
+            app:icon="@drawable/setting_icon_3"
+            app:key="download"
+            app:title="是否允许使用移动网络下载" />
+
+        <SwitchPreferenceCompat
+            app:dependency="download"
+            app:iconSpaceReserved="false"
+            app:key="attachment"
+            app:summaryOff="不使用4G进行下载"
+            app:summaryOn="使用4G进行下载"
+            app:title="4G网络设置" />
+
+    </PreferenceCategory>
+
+    <MultiSelectListPreference
+        app:entries="@array/reply_entries"
+        app:entryValues="@array/reply_values"
+        app:key="muti_select"
+        app:title="多选" />
+
+    <Preference
+        app:icon="@drawable/setting_icon_1"
+        app:key="jump"
+        app:summary="跳转到另一个Activity"
+        app:title="跳转">
+        <intent
+            android:action="com.quibbler.jump"
+            android:targetClass="com.easyicon.server.activity.JumpHereActivity"
+            android:targetPackage="com.easyicon.server" />
+    </Preference>
+
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        app:key="change"
+        app:summary="先选择，再变化"
+        app:title="点击先选择" />
+
+</PreferenceScreen>

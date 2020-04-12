@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">postavke</string>
+    <string name="messages_header">poruke</string>
+    <string name="sync_header">Sinkronizacija</string>
+    <string name="signature_title">Vaš potpis</string>
+    <string name="reply_title">Zadana radnja odgovor</string>
+    <string name="sync_title">Sinkronizacija e-pošte povremeno</string>
+    <string name="attachment_title">Preuzimanje dolazne privitke</string>
+    <string name="attachment_summary_on">Automatsko preuzimanje privitaka za dolazne poruke e-pošte</string>
+    <string name="attachment_summary_off">preuzeti samo one dodatke kada ručno zatražio</string>
+    <string name="hello_blank_fragment">Pozdrav prazan fragment</string>
+</resources>

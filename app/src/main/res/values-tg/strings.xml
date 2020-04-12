@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">Танзимот</string>
+    <string name="messages_header">паёмҳо</string>
+    <string name="sync_header">Ҳмҳнг</string>
+    <string name="signature_title">имзои шумо</string>
+    <string name="reply_title">амал ҷавоб Default</string>
+    <string name="sync_title">Ҳамзамонсозӣ давра ба почтаи</string>
+    <string name="attachment_title">Download замимаҳои воридотӣ</string>
+    <string name="attachment_summary_on">Ба таври худкор зеркашӣ замимаҳо барои мактубҳои воридотӣ</string>
+    <string name="attachment_summary_off">Танҳо замимаҳо зеркашӣ вақте дастӣ дархост</string>
+    <string name="hello_blank_fragment">Салом қитъае холӣ</string>
+</resources>

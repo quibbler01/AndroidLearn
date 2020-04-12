@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">anviwònman</string>
+    <string name="messages_header"></string>
+    <string name="sync_header">senkro</string>
+    <string name="signature_title">siyati ou</string>
+    <string name="reply_title"></string>
+    <string name="sync_title"></string>
+    <string name="attachment_title">Download atachman fèk ap rantre</string>
+    <string name="attachment_summary_on">Otomatikman atachman download pou Imèl fèk ap rantre</string>
+    <string name="attachment_summary_off">Se sèlman download atachman lè manyèlman mande</string>
+    <string name="hello_blank_fragment"></string>
+</resources>

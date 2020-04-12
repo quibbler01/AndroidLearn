@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">mipangilio</string>
+    <string name="messages_header">ujumbe</string>
+    <string name="sync_header">Usawazishaji</string>
+    <string name="signature_title">sahihi yako</string>
+    <string name="reply_title">Default reply hatua</string>
+    <string name="sync_title">Sawazisha barua pepe mara kwa mara</string>
+    <string name="attachment_title">Download attachments zinazoingia</string>
+    <string name="attachment_summary_on">Moja kwa moja viambatisho kwa barua pepe zinazoingia</string>
+    <string name="attachment_summary_off">Tu kushusha attachments wakati manually aliomba</string>
+    <string name="hello_blank_fragment">Habari tupu kipande</string>
+</resources>

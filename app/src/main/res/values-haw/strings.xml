@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">LearnGlide</string>
+	<string name="title_activity_settings">palapala koho</string>
+	<string name="messages_header">Nā memo ma</string>
+	<string name="sync_header">lōkahi</string>
+	<string name="signature_title">kou inoa</string>
+	<string name="reply_title">Default pane hana</string>
+	<string name="sync_title">Lōkahi leka uila ma ke kamepiula</string>
+	<string name="attachment_title">Download e hoʻopā ai ka mea pākuʻi</string>
+	<string name="attachment_summary_on">Akomi Download mea pākuʻi no e hoʻopā ai emails</string>
+	<string name="attachment_summary_off">Wale download ka mea pākuʻi ka wā hana lima noi</string>
+	<string name="hello_blank_fragment">Hello pepa hakahaka apana nahaha</string>
+	<string name="string"></string>
+</resources>

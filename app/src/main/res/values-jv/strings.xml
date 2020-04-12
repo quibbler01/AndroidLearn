@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">Setelan</string>
+    <string name="messages_header">pesen</string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">Tapak asta panjenengan</string>
+    <string name="reply_title">reply tumindak Default</string>
+    <string name="sync_title">Sink email periodik</string>
+    <string name="attachment_title">Download lampiran mlebu</string>
+    <string name="attachment_summary_on">Otomatis download lampiran email mlebu</string>
+    <string name="attachment_summary_off">Mung download lampiran yen dijaluk kanthi manual</string>
+    <string name="hello_blank_fragment">Hello pecahan blank</string>
+</resources>

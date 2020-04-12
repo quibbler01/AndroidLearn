@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">gosodiadau</string>
+    <string name="messages_header">negeseuon</string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">eich llofnod</string>
+    <string name="reply_title">gweithredu ateb ddiofyn</string>
+    <string name="sync_title">Cydamseru e-bost o bryd i\'w gilydd</string>
+    <string name="attachment_title">Download atodiadau sy\'n dod i mewn</string>
+    <string name="attachment_summary_on">Awtomatig lawrlwytho atodiadau i negeseuon e-bost sy\'n dod i mewn</string>
+    <string name="attachment_summary_off">Dim ond lawrlwytho atodiadau pan ofynnir llaw</string>
+    <string name="hello_blank_fragment">Helo darn wag</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">Կարգավորումներ</string>
+    <string name="messages_header">ուղերձները</string>
+    <string name="sync_header">sync,</string>
+    <string name="signature_title">Քո ստորագրությունը</string>
+    <string name="reply_title">Default պատասխանը ակցիան</string>
+    <string name="sync_title">Sync email պարբերաբար</string>
+    <string name="attachment_title">Download մուտքային կցորդներ</string>
+    <string name="attachment_summary_on">Ավտոմատ կցորդները համար մուտքային նամակներ</string>
+    <string name="attachment_summary_off">Միայն բեռնել կցորդները, երբ ձեռքով խնդրանքով</string>
+    <string name="hello_blank_fragment">Բարեւ դատարկ Հատված</string>
+</resources>

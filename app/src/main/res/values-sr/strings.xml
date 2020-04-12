@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ЛеарнГлиде</string>
+    <string name="title_activity_settings"></string>
+    <string name="messages_header">Поруке</string>
+    <string name="sync_header">Синхронизовати</string>
+    <string name="signature_title">Ваш потпис</string>
+    <string name="reply_title">Уобичајено одговор акције</string>
+    <string name="sync_title"></string>
+    <string name="attachment_title"></string>
+    <string name="attachment_summary_on">Аутоматско преузимање прилога за долазне е-поруке</string>
+    <string name="attachment_summary_off">Само преузимање прилога када ручно тражи</string>
+    <string name="hello_blank_fragment"></string>
+</resources>

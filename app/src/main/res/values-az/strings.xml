@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="messages_header">mesajlar</string>
+    <string name="sync_header">Sinxronizasiya</string>
+    <string name="signature_title">sizin imza</string>
+    <string name="reply_title">Default cavab fəaliyyət</string>
+    <string name="sync_title">vaxtaşırı e-poçt sync</string>
+    <string name="attachment_title">Gələn faylları Download</string>
+    <string name="attachment_summary_on">daxil olan e-poçt üçün avtomatik download faylları</string>
+    <string name="attachment_summary_off">Əl tələb yalnız faylları download</string>
+    <string name="hello_blank_fragment">Hello boş parçası</string>
+</resources>

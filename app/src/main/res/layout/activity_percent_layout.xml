@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:textSize="15dp"
+        app:layout_heightPercent="50%"
+        app:layout_marginStartPercent="10%"
+        app:layout_marginTopPercent="10%"
+        app:layout_widthPercent="20%" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="172dp"
+        android:layout_toEndOf="@+id/text" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:textSize="15dp"
+        app:layout_heightPercent="20%"
+        app:layout_marginStartPercent="10%"
+        app:layout_marginTopPercent="70%"
+        app:layout_widthPercent="40%" />
+
+    <Button
+        android:id="@+id/change_system_language"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="切换系统语言" />
+
+    <Button
+        android:id="@+id/connect_to_messenger_service"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="204dp"
+        android:text="连接另一个进程的Service" />
+
+</androidx.percentlayout.widget.PercentRelativeLayout>

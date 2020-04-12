@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">LearnGlide</string>
+	<string name="title_activity_settings">die Einstellungen</string>
+	<string name="messages_header">Mitteilungen</string>
+	<string name="sync_header">Sync</string>
+	<string name="signature_title"></string>
+	<string name="reply_title">Standardantwort Aktion</string>
+	<string name="sync_title">E-Mail synchronisieren periodisch</string>
+	<string name="attachment_title"></string>
+	<string name="attachment_summary_on">Automatisch herunterladen Anhänge für eingehende E-Mails</string>
+	<string name="attachment_summary_off">Nur Anhänge herunterladen, wenn manuell angefordert</string>
+	<string name="hello_blank_fragment">Hallo blank Fragment</string>
+	<string name="string"></string>
+</resources>

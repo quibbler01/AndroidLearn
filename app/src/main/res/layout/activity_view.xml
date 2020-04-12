@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ViewActivity">
+
+    <com.easyicon.learnglide.ui.ScrollTextView
+        android:id="@+id/text"
+        android:layout_width="300dp"
+        android:layout_height="600dp"
+        android:gravity="center"
+        android:text="当用户触摸屏幕的时候，会产生许多手势，例如down，up，scroll，filing等等。
+一般情况下，我们知道View类有个View.OnTouchListener内部接口，通过重写他的onTouch(View v, MotionEvent event)方法，我们可以处理一些touch事件，但是这个方法太过简单，如果需要处理一些复杂的手势，用这个接口就会很麻烦（因为我们要自己根据用户触摸的轨迹去判断是什么手势）。
+Android sdk给我们提供了GestureDetector（Gesture：手势Detector：识别）类，通过这个类我们可以识别很多的手势，主要是通过他的onTouchEvent(event)方法完成了不同手势的识别。虽然他能识别手势，但是不同的手势要怎么处理，应该是提供给程序员实现的。
+————————————————
+版权声明：本文为CSDN博主「启舰」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/harvic880925/article/details/39520901"
+        android:textDirection="firstStrongRtl"
+        android:textIsSelectable="true"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+    <com.easyicon.learnglide.view.MyView
+        android:id="@+id/my_view"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/colorAccent" />
+
+    <com.easyicon.learnglide.view.CircleView
+        android:id="@+id/circle_view"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:background="@color/design_default_color_secondary_variant"
+        android:padding="20dp"
+        app:circle_color="@android:color/holo_green_dark" />
+
+</LinearLayout>

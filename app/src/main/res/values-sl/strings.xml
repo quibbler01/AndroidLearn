@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"></string>
+    <string name="title_activity_settings">Nastavitve</string>
+    <string name="messages_header">sporočila</string>
+    <string name="sync_header">Sinhronizacija</string>
+    <string name="signature_title">Vaš podpis</string>
+    <string name="reply_title">Privzeto dejanje odgovor</string>
+    <string name="sync_title">SYNC redno email</string>
+    <string name="attachment_title">Naložite dohodne priponk</string>
+    <string name="attachment_summary_on">Samodejno prenese priključki za dohodne e-pošte</string>
+    <string name="attachment_summary_off">prenos le priloge, ko ročno zahteval</string>
+    <string name="hello_blank_fragment">Halo prazno fragmenta</string>
+</resources>

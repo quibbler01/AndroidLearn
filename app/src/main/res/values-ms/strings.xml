@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">tetapan</string>
+    <string name="messages_header">mesej-mesej</string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">Tandatangan anda</string>
+    <string name="reply_title">tindakan balasan lalai</string>
+    <string name="sync_title">Menyegerakkan e-mel secara berkala</string>
+    <string name="attachment_title">Memuat turun lampiran yang diterima dan</string>
+    <string name="attachment_summary_on">Secara automatik lampiran muat turun untuk e-mel masuk</string>
+    <string name="attachment_summary_off">Hanya memuat turun lampiran apabila diminta secara manual</string>
+    <string name="hello_blank_fragment">Hello serpihan blank</string>
+</resources>

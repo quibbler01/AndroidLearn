@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">configuración</string>
+    <string name="messages_header">mensaxes</string>
+    <string name="sync_header">sincronización</string>
+    <string name="signature_title">súa sinatura</string>
+    <string name="reply_title">acción de resposta estándar</string>
+    <string name="sync_title">Sincronización de correo periodicamente</string>
+    <string name="attachment_title">Descarga de anexos entrantes</string>
+    <string name="attachment_summary_on">Automaticamente descargar anexos de correo-e recibidos</string>
+    <string name="attachment_summary_off">descargar só anexos cando se solicite a man</string>
+    <string name="hello_blank_fragment">Ola fragmento branco</string>
+</resources>

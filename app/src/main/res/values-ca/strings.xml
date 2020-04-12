@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">ajustos</string>
+    <string name="messages_header">missatges</string>
+    <string name="sync_header">Sincronitzar</string>
+    <string name="signature_title">seva signatura</string>
+    <string name="reply_title">\'acció de resposta per defecte</string>
+    <string name="sync_title">Sincronització de correu electrònic periòdicament</string>
+    <string name="attachment_title">Descarregar els arxius adjunts entrants</string>
+    <string name="attachment_summary_on">Automàticament els arxius adjunts de descàrregues dels correus electrònics entrants</string>
+    <string name="attachment_summary_off">descarregar només els arxius adjunts quan se sol·licita manualment</string>
+    <string name="hello_blank_fragment">Hola fragment blanc</string>
+</resources>

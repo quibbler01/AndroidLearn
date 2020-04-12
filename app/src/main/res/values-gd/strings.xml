@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnGlide</string>
+    <string name="title_activity_settings">Roghainnean</string>
+    <string name="messages_header"></string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">-sgrìobhadh agad</string>
+    <string name="reply_title">Default freagairt gnìomha</string>
+    <string name="sync_title">Sync àm gu àm air post-d</string>
+    <string name="attachment_title">Luchdaich a-nuas thin ceanglachain</string>
+    <string name="attachment_summary_on">Fèin-obrachail download ceanglachain airson tighinn a-steach post-d</string>
+    <string name="attachment_summary_off">Cha robh ach a-nuas ceanglachain a làimh nuair a dhiarr</string>
+    <string name="hello_blank_fragment"></string>
+</resources>
