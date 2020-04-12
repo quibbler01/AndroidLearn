@@ -14,5 +14,9 @@
         android:text="@string/desktop_wdiget_view"
         android:textSize="18dp"
         android:textStyle="bold|italic" />
+    <!--不支持的View会导致桌面挂件显示异常-->
+    <!--    <com.easyicon.learnglide.view.MyView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content" />-->
 
 </RelativeLayout>

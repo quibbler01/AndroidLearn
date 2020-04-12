@@ -8,7 +8,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 import android.widget.RemoteViews;
-import android.widget.Toast;
 
 import com.easyicon.learnglide.R;
 
@@ -36,9 +35,9 @@ public class DesktopWidget extends AppWidgetProvider {
         String action = intent.getAction();
         Log.e(TAG, "Action：" + action);
         if (CLICK_ACTION.equals(action)) {
-            Toast toast = Toast.makeText(context, null, Toast.LENGTH_SHORT);
-            toast.setText("后台Toast");
-            toast.show();
+//            Toast toast = Toast.makeText(context, null, Toast.LENGTH_SHORT);
+//            toast.setText("后台Toast");
+//            toast.show();
             RemoteViews remoteViews = new RemoteViews(context.getPackageName(), R.layout.desktop_view);
 
             Date date = Calendar.getInstance().getTime();
@@ -61,7 +60,23 @@ public class DesktopWidget extends AppWidgetProvider {
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
         Log.e(TAG, Arrays.toString(appWidgetIds));
         for (int appWidgetId : appWidgetIds) {
-            onWidgetUpdate(context, appWidgetManager, appWidgetId);
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    while (true) {
+                        try {
+                            Thread.sleep(1000);
+                        } catch (Exception e) {
+                            Log.e(TAG, e.toString());
+                        }
+                        RemoteViews remoteViews = new RemoteViews(context.getPackageName(), R.layout.desktop_view);
+                        Date date = Calendar.getInstance().getTime();
+                        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM/dd/yy HH:mm:ss", Locale.CHINESE);
+                        remoteViews.setTextViewText(R.id.desktop_text, "当前时间:" + simpleDateFormat.format(date));
+                        AppWidgetManager.getInstance(context).updateAppWidget(new ComponentName(context, DesktopWidget.class), remoteViews);
+                    }
+                }
+            }).start();
         }
     }
 
