@@ -103,6 +103,36 @@ public class DesktopWidget extends AppWidgetProvider {
 
     }
 
+    /**
+     * 结果
+     * /
+     * yes
+     * /
+     * 条件B
+     * /         \
+     * no           no
+     * /               \
+     * 条件A                 结果
+     * \
+     * yes               结果
+     * ⁠⁠⁠⁠⁠      \              /
+     * \          yes
+     * \        /
+     * 条件C               结果
+     * \             /
+     * no         yes
+     * \        /
+     * 条件D                结果
+     * \             /
+     * no         yes
+     * \        /
+     * 条件E
+     * \
+     * no
+     * \
+     * 结果
+     */
+
     @Override
     public void onDisabled(Context context) {
 
