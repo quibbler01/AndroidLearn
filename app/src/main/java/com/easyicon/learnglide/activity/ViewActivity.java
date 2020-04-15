@@ -3,6 +3,9 @@ package com.easyicon.learnglide.activity;
 import android.animation.ValueAnimator;
 import android.content.BroadcastReceiver;
 import android.content.IntentFilter;
+import android.graphics.drawable.Drawable;
+import android.graphics.drawable.ScaleDrawable;
+import android.graphics.drawable.TransitionDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -15,6 +18,9 @@ import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.view.animation.BounceInterpolator;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -40,6 +46,18 @@ public class ViewActivity extends AppCompatActivity {
     MyView mMyView;
     @BindView(R.id.circle_view)
     CircleView mCircleView;
+    @BindView(R.id.image)
+    ImageView mImage;
+    @BindView(R.id.add_level_btn)
+    Button mAddLevelBtn;
+    @BindView(R.id.current_level)
+    TextView mCurrentLevel;
+    @BindView(R.id.sub_level_btn)
+    Button mSubLevelBtn;
+    @BindView(R.id.transition_image_view)
+    ImageView mTransitionImageView;
+    @BindView(R.id.scale_iamgeView_drawable)
+    ImageView mScaleIamgeViewDrawable;
 
     private VelocityTracker mVelocityTracker;
 
@@ -64,6 +82,8 @@ public class ViewActivity extends AppCompatActivity {
 //        useAnimToScrollView();
 
 //        resetLayoutParams();
+
+        setDrawableLevel();
 
         animator();
 
@@ -145,6 +165,41 @@ public class ViewActivity extends AppCompatActivity {
     @OnClick(R.id.circle_view)
     public void onCircleViewClicked() {
         Toast.makeText(this, "前台弹出Toast", Toast.LENGTH_SHORT).show();
+    }
+
+//    @OnClick(R.id.add_level_btn)
+//    public void onViewClicked() {
+
+//    }
+
+    private void setDrawableLevel() {
+        Drawable drawable = mImage.getBackground();
+        mCurrentLevel.setText(String.valueOf(drawable.getLevel()));
+
+        ScaleDrawable scaleDrawable = (ScaleDrawable) mScaleIamgeViewDrawable.getBackground();
+        scaleDrawable.setLevel(1);
+    }
+
+    @OnClick({R.id.add_level_btn, R.id.sub_level_btn})
+    public void onViewClicked(View view) {
+        Drawable drawable = mImage.getBackground();
+        switch (view.getId()) {
+            case R.id.add_level_btn:
+                mCurrentLevel.setText(String.valueOf(drawable.getLevel()));
+                drawable.setLevel(2);
+                break;
+            case R.id.sub_level_btn:
+                mCurrentLevel.setText(String.valueOf(drawable.getLevel()));
+                drawable.setLevel(0);
+                break;
+        }
+    }
+
+    @OnClick(R.id.transition_image_view)
+    public void onViewClicked() {
+        TransitionDrawable drawable = (TransitionDrawable) mTransitionImageView.getBackground();
+//        drawable.startTransition(2000);
+        drawable.reverseTransition(1000);
     }
 
     private class Listener implements GestureDetector.OnGestureListener, GestureDetector.OnContextClickListener {
