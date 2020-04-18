@@ -8,6 +8,8 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
 
     <application
         android:name=".MyApplication"
@@ -18,8 +20,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-
-        <activity android:name=".activity.ViewActivity">
+        <activity android:name=".activity.WindowActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -27,6 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.ViewActivity" />
 
         <service
             android:name=".service.MessengerService"
@@ -75,9 +77,10 @@
             android:name=".view.DesktopWidget"
             android:label="桌面时钟">
             <intent-filter>
-                <!--桌面挂件组件必须的action-->
+
+                <!-- 桌面挂件组件必须的action -->
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <!--自定义的点击广播-->
+                <!-- 自定义的点击广播 -->
                 <action android:name="com.easyicon.learnglide.desktopWidget.CLICK" />
             </intent-filter>
 
@@ -85,7 +88,6 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/desktop_widget_info" />
         </receiver>
-
         <receiver android:name=".view.NewAppWidget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
